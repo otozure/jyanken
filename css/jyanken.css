@@ -1,0 +1,26 @@
+@charset "utf-8";
+body{
+    font-family:  メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+}
+body>div{
+    background-color:  rgb(243, 185, 237);
+    width:320px;
+    margin: 1em auto;
+    padding:1em;
+    text-align: center;
+}
+#cp_result{
+    font-size:200px;
+}
+.my_hand{
+    font-size:70px;
+    display: inline-block; 
+}
+#reset_button{
+    display: block;
+    background-color:  #ccc;
+    width:100px;
+    text-align: center;
+    padding: 1em;
+    margin:1em auto;
+}
