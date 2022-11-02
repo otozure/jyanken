@@ -1,0 +1,37 @@
+<html lang="ja">
+    <head>
+        <!-- 画面に表示しない内容//-->
+        <title>じゃんけんげーむ</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <!-- CSS//-->
+        <link rel="stylesheet" href="./css/jyanken.css">
+        <script src="./js/jyanken.js"></script>
+    </head>
+    <body>
+        <div>
+            <!-- 1. タイトル//-->
+            <h1>ジャンゲンゲーム</h1>
+
+            <!-- 6. コンピュータの手//-->
+            <div id="cp_result">✊</div>
+
+            <!-- 7. 結果を表示するエリア//-->
+            <div id="game_result">じゃんけんしようぜ！</div>
+
+            <!-- 2. 自分の手（グー）//-->
+            <div id="my_hand-gu" class="my_hand" onclick="jyanken('gu');">✊</div>
+
+            <!-- 3. 自分の手（チョキ）//-->
+            <div id="my_hand-ch" class="my_hand" onclick="jyanken('ch');">✌🏼</div>
+            
+            <!-- 4. 自分の手（パー）//-->
+            <div id="my_hand-pa" class="my_hand" onclick="jyanken('pa');">✋</div>
+
+            <!-- 5. リセットボタン//-->
+            <div id="reset_button" onclick="location.reload();">リセット</div>
+        </div>
+    </body>
+</html>
