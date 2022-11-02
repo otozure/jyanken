@@ -5,8 +5,8 @@ const r_even = "even";
 const r_win = "win";
 const r_lose = "lose";
 const hand = { gu: "✊", ch: "✌️", pa: "✋" };
-const ELM_CP_RESULT = document.getElementById("cp_result");
-const ELM_KEKKA = document.getElementById("game_result");
+let ELM_CP_RESULT = document.getElementById("cp_result");
+let ELM_KEKKA = document.getElementById("game_result");
 
 //1. ユーザーが、自分の手を決めるボタンを押した際、の処理
 async function jyanken(my_hand) {
